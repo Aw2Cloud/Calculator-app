@@ -27,17 +27,17 @@ class Calculator
 			case 2:
 			Console.WriteLine("Pengurangan");
 			opsi();
-			Console.WriteLine("Hasil Pengurangan : {0} + {1} + {2}",a,b,kurang);
+			Console.WriteLine("Hasil Pengurangan : {0} - {1} + {2}",a,b,kurang);
 			break;
 			case 3:
 			Console.WriteLine("Perkalian");
 			opsi();
-			Console.WriteLine("Hasil Perkalian : {0} + {1} + {2}",a,b,kali);
+			Console.WriteLine("Hasil Perkalian : {0} * {1} + {2}",a,b,kali);
 			break;
 			case 4:
 			Console.WriteLine("Pembagian");
 			opsi();
-			Console.WriteLine("Hasil Pembagian : {0} + {1} + {2}",a,b,bagi);
+			Console.WriteLine("Hasil Pembagian : {0} / {1} + {2}",a,b,bagi);
 			break;
 			default:
 			Console.WriteLine("Maaf Menu Tidak Tersedia");
